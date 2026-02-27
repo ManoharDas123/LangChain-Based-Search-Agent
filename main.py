@@ -25,6 +25,7 @@ Custom Function and Tool for AI Agent
 #     print(f"Searching for {query}")
 #     return tavily.search(query=query)
 
+
 llm = ChatOllama(temperature=0, model="llama3.1:8b")
 
 # tools = [search] ; calling search function in a tools variable.
